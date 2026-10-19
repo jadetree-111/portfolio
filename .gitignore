@@ -1,0 +1,20 @@
+# Local dependencies, private settings, and runtime data
+node_modules/
+.env
+.env.*
+!.env.example
+data/
+_verification/
+.upload-repo/
+.publish-tools/
+*.key
+*.pem
+*.db
+*.db-wal
+*.db-shm
+*.log
+.DS_Store
+Thumbs.db
+
+# Published separately as a public GitHub Release asset (>100 MB)
+/数模/支撑材料.zip
